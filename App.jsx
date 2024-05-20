@@ -6,10 +6,10 @@ import { View } from 'react-native';
 import react from "react";
 
 export default function App() {
-  const [isLoaded, setIsLoaded] = useState(true)
   return (
     <View style={{backgroundColor: '#2B2D42', flex: 1}}>
-      {isLoaded ? <Routes/> : <Splash/>}
+      <Splash/>
+      <Routes/>
     </View>
   );
 }

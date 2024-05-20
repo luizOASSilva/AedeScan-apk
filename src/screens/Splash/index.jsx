@@ -12,7 +12,6 @@ export default function Splash({isLoaded}) {
             resizeMode={ResizeMode.COVER}
             isLooping={false}
             shouldPlay={true} 
-            onPlaybackStatusUpdate={() => isLoaded(true)}
         />
     </>
   )
