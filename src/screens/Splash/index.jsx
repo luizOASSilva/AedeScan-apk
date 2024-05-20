@@ -3,7 +3,7 @@ import { ResizeMode, Video } from 'expo-av';
 import { StyleSheet } from 'react-native';
 
 
-export default function Splash() {
+export default function Splash({isLoaded}) {
   return (
     <>
         <Video
@@ -12,6 +12,7 @@ export default function Splash() {
             resizeMode={ResizeMode.COVER}
             isLooping={false}
             shouldPlay={true} 
+            onPlaybackStatusUpdate={() => isLoaded(true)}
         />
     </>
   )

@@ -6,10 +6,10 @@
     "orientation": "portrait",
     "icon": "./assets/icons/icon.png",
     "userInterfaceStyle": "light",
-    "androidStatusBar":{
+    "androidStatusBar": {
       "backgroundColor": "#2B2D42"
     },
-    "androidNavigationBar":{
+    "androidNavigationBar": {
       "backgroundColor": "#2B2D42"
     },
     "splash": {
@@ -24,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/icons/adaptive-icon.png",
         "backgroundColor": "#2B2D42"
-      }
+      },
+      "package": "com.luizoass.AedeScanapk"
     },
     "web": {
       "favicon": ""
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3e75ec00-8451-45d9-b1ab-25d8f09a543f"
+      }
     }
   }
 }
